@@ -846,13 +846,20 @@ $(document).ready(function() {
   $(window).resize(onResize);
   $('.newemailbutton').click(addSubReddit);
   main_inbox = makeFolder('Front Page');
-  makeFolder('gaming');
-  makeFolder('pics');
+  makeFolder('news');
+  makeFolder('nostalgia');
   makeFolder('askreddit');
-  makeFolder('jokes');
-  makeFolder('funny');
-  makeFolder('iama');
-  makeFolder('wtf');
+  makeFolder('books');
+  makeFolder('AskMen');
+  makeFolder('Baldursgate');
+  makeFolder('catloaf');
+  makeFolder('copenhagen');
+  makeFolder('coffee');
+  makeFolder('GenX');
+  makeFolder('hacking'); 
+  makeFolder('servicenow');
+  makeFolder('PrintSF');    
+  makeFolder('todayilearned'); 
   $('#folder_FrontPage').parent().addClass('foldwraphi');
   folderClick('folder_FrontPage');
   $('.outlookmin').click(function() {
